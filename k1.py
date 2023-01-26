@@ -7,5 +7,7 @@ for x in range(12):
     print(calendar.month(yy,mm))
 """
 def say_hello(name, age):
-    print(f"Hello My name is {name} and {age} years old!")
-say_hello('konan',25)
+    return (f"Hello My name is {name} and {age} years old!")
+
+x_h= say_hello('konan',25)
+print(x_h)
