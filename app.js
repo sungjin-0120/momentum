@@ -1,9 +1,4 @@
-const naJeung = {
-  name: "나정",
-  boob: "75D",
-};
+const title = document.getElementById("title");
 
-console.log(naJeung);
-
-naJeung.boob = "80F";
-console.log(naJeung);
+title.innerText = "Got you!";
+console.log(title.id);
