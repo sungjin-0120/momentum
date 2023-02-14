@@ -8,6 +8,7 @@ function paindTodo(newTodo) {
   li.appendChild(span);
   span.innerText = newTodo;
   todoList.appendChild(li);
+  
 }
 function handleToDoSubmit(event) {
   event.preventDefault();
