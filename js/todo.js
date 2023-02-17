@@ -10,8 +10,9 @@ function saveTodos() {
 }
 function deleteTodo(event) {
   const li = event.target.parentElement;
-  console.log(li.id);
   li.remove();
+  todos = todos.filter((todo) => todo.id !== parseInt(li.id));
+  saveTodos();
 }
 function paindTodo(newTodo) {
   const li = document.createElement("li");
