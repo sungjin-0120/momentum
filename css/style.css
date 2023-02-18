@@ -6,6 +6,11 @@
   font-size: 100px;
 }
 
+#todo-form {
+  color: white;
+  font-size: 20px;
+}
+
 #center {
   position: relative;
   top: 300px;
@@ -14,7 +19,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: wheat;
+  font-size: 30px;
+  color: white;
 }
 
 img {
