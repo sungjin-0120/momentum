@@ -1,15 +1,24 @@
+@import "reset.css";
+
 body {
   font-family: "Oswald", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 header {
+  font-size: 100px;
+  position: relative;
+  top: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 img {
   position: absolute;
-  height: 500px;
-  width: 500px;
+  height: 100vh;
+  width: 100vw;
   top: 0;
   z-index: -10;
 }
@@ -17,21 +26,24 @@ img {
 .hidden {
   display: none;
 }
-#hello-form {
-  position: absolute;
-  top: 30px;
-  padding: 0 30px;
-}
+
 #hello-form input {
   border: none;
+  font-size: 50px;
   background-color: transparent;
-  border-bottom: 2px solid yellowgreen;
+  border-bottom: 5px solid yellowgreen;
 }
 #hello_submit {
   background-color: transparent;
 }
+#quotes {
+  margin: 0px;
+}
 #quotes span {
   font-weight: 800;
-  font-size: 15px;
+  font-size: 35px;
   color: black;
+}
+#time {
+  margin: 20px;
 }
