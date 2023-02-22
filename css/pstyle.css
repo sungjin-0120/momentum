@@ -2,18 +2,18 @@
 
 body {
   font-family: "Oswald", sans-serif;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 header {
-  font-size: 100px;
-  position: relative;
-  top: 200px;
+  width: 100%;
+  margin: 10px 20px;
+  font-size: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+  bottom: 150px;
 }
 img {
   position: absolute;
@@ -21,6 +21,7 @@ img {
   width: 100vw;
   top: 0;
   z-index: -10;
+  position: fixed;
 }
 
 .hidden {
